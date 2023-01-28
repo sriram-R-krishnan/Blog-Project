@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>COUNTER</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="counter">
+            <h3 class="title">COUNTER</h3>
+            <h2 class="counter-value">0</h2>
+            <div class="buttons">
+                <button class="decrement" onclick="decValue()"> Decrement </button>
+                <button class="increment" onclick="incValue()"> increment </button>
+            </div>
+            <div class="addVal">
+                <input type="number" class="addValue"  value="0">
+                <button class="addValue-btn" onclick="AddValue()">Add Value</button>
+            </div>
+            <div>
+                <button class="reset" onclick="reset()">RESET</button>
+            </div>
+        </div>
+    
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
