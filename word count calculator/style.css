@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+.parent{
+    background-color: #484848;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-area{
+    width: 500px;
+    margin: 1rem;
+    padding: 0.5rem;
+    border: none;
+    color: black;
+}
+.text-area:focus{
+   outline: none;
+}
+.count-btn{
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    border: none;
+    margin: 1rem;
+}
